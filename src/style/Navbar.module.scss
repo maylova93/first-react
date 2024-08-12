@@ -1,0 +1,13 @@
+.navbarStyle {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #333; 
+    width: 100%;
+    align-self: center;
+    justify-content: center;
+}
+.linkStyle{
+    color: red;
+    background-color: #333;
+    list-style: none;
+}

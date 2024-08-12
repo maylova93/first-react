@@ -1,13 +1,13 @@
-import style from '../style/main.module.scss'
-function  Main(){
- return(
-    <>
-    <div style={{backgroundColor:"rgb(220,220,220)", color:"red"}}>
-    <h1>My first Component</h1>
+import style from '../style/main.module.scss';
 
-    </div>
-    </>
- )
+function Main() {
+    return (
+        <>
+            <div className={style.container}>
+                <h1 className={style.heading}>My first Component</h1>
+            </div>
+        </>
+    );
 }
 
-export default Main
+export default Main;

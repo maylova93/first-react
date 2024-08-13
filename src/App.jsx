@@ -3,16 +3,14 @@ import Main from './components/Main'
 import Header from './components/Header'
 import Footer from './components/footer'
 import Navbar from './components/Navbar'
-import React from 'react';
 import ParentComponent from './components/ParentComponent'
 
 
 function App() {
    return (  
     <>
- 
+    <Header headerText="Props er cool"/>
     <ParentComponent/>
-    <Header/>
     <Main/>
     <Footer/>
     </>

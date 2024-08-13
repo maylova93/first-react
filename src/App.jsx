@@ -5,6 +5,7 @@ import Footer from './components/footer'
 import Navbar from './components/Navbar'
 import ParentComponent from './components/ParentComponent'
 import Favorites from './components/Favorites'
+import ButtonsContainer from './components/ButtonsContainer'
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <>
     <Header headerText="Props er cool"/>
     <Favorites/>
+    <ButtonsContainer/>
     <ParentComponent/>
     <Main/>
     <Footer/>
